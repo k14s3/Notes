@@ -22,6 +22,8 @@ body {
     margin: 20px auto;
     box-sizing: border-box;
     overflow: auto;
+    position: relative;
+    padding-top: 60px; /* Add padding at the top to ensure the top content is visible */
 }
 
 h1 {
@@ -62,6 +64,7 @@ li {
 @media (max-width: 600px) {
     .container {
         padding: 15px;
+        padding-top: 60px; /* Maintain padding at the top for smaller screens */
     }
 
     h1 {
