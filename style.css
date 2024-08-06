@@ -8,7 +8,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 .container {
@@ -86,4 +85,7 @@ li {
 .scrollable-content {
     overflow-y: auto;
     max-height: 400px; /* Adjust as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
 }
