@@ -4,12 +4,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container {
@@ -20,8 +19,9 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 90%;
-    margin: 20px;
+    margin: 20px auto;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 h1 {
