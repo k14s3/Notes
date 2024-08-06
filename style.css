@@ -21,7 +21,7 @@ body {
     width: 90%;
     margin: 20px auto;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     padding-top: 60px; /* Add padding at the top to ensure the top content is visible */
 }
@@ -81,4 +81,9 @@ li {
         padding: 8px 15px;
         font-size: 0.9em;
     }
+}
+
+.scrollable-content {
+    overflow-y: auto;
+    max-height: 400px; /* Adjust as needed */
 }
