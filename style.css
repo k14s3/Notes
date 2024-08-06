@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto; /* Changed to auto for better responsiveness */
     margin: 0;
     padding: 20px;
     color: #333;
@@ -58,14 +58,15 @@ li {
     margin: 5px 0;
 }
 
-/* Add this to ensure proper spacing on mobile devices */
+/* Ensure proper spacing on mobile devices */
 @media (max-width: 600px) {
     body {
         padding: 40px 20px;
     }
 
     .container {
-        padding: 60px; /* Increase padding for mobile devices */
+        padding: 40px; /* Ensure enough padding for all content */
+        margin-top: 40px; /* Add margin to top for spacing */
     }
 
     h1 {
